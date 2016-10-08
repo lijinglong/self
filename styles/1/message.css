@@ -1,0 +1,44 @@
+@CHARSET "UTF-8";
+#list {
+    width: 85%;
+    height: 70%;
+    border: 2px solid #cccccc;
+    float: right;
+}
+
+#list table {
+    width: 90%;
+    margin: 2% 3% 0 2%;
+}
+#list table td {
+    text-align: center;
+    border-left: 1px solid;
+    border-top: 1px solid;
+}
+#list table td img{
+    margin: auto;
+    width: 50px;
+    height: 50px;
+}
+#list table td img #piccontent {
+    margin: auto;
+}
+#user {
+    width: 13%;
+    height: 70%;
+    border: 2px solid #cccccc;
+    float: left;
+}
+#user dl {
+    margin: 0 auto;
+}
+#user dl dd {
+    padding: 5% 0 0 10%;
+}
+#user dl dd a {
+    text-decoration: none;
+    color: black;
+}
+#user dl dd a:hover{
+    color: #ff0000;
+}

@@ -1,0 +1,22 @@
+@CHARSET "UTF-8";
+body {
+    background: url("../../images/self1.png");
+    width: 90%;
+    height:600px;
+}
+#guize h1{
+    margin: 110px 0 0 100px;
+    font-size: 50px;
+    color: #ffffff;
+}
+#guize p{
+    margin: auto 200px;
+    font-size: 50px;
+    color: #ffffff;
+}
+#guize img{
+    margin: 50px 100px;
+    width: 400px;
+    height: 400px;
+    float: right;
+}

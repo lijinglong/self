@@ -1,0 +1,44 @@
+@CHARSET "UTF-8";
+#member {
+    width: 85%;
+    height: 70%;
+    border: 2px solid #cccccc;
+    float: right;
+}
+
+#member dl {
+    width:90%;
+    margin:15px auto;
+    font-size:18px;
+}
+#member dl dd {
+    padding:20px 0;
+}
+#member dl dd input.submit{
+    width: 60px;
+    height: 25px;
+    cursor: pointer;
+}
+#member dl dd.face img{
+    cursor: pointer;
+}
+
+#user {
+    width: 13%;
+    height: 70%;
+    border: 2px solid #cccccc;
+    float: left;
+}
+#user dl {
+    margin: 0 auto;
+}
+#user dl dd {
+    padding: 5% 0 0 10%;
+}
+#user dl dd a {
+    text-decoration: none;
+    color: black;
+}
+#user dl dd a:hover{
+    color: #ff0000;
+}

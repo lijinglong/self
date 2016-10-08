@@ -1,0 +1,26 @@
+@CHARSET "UTF-8";
+#list {
+    width: 85%;
+    height: 70%;
+    border: 2px solid #cccccc;
+    float: right;
+}
+#user {
+    width: 13%;
+    height: 70%;
+    border: 2px solid #cccccc;
+    float: left;
+}
+#user dl {
+    margin: 0 auto;
+}
+#user dl dd {
+    padding: 5% 0 0 10%;
+}
+#user dl dd a {
+    text-decoration: none;
+    color: black;
+}
+#user dl dd a:hover{
+    color: #ff0000;
+}

@@ -1,0 +1,70 @@
+@CHARSET "UTF-8";
+/**
+活动界面的css
+*/
+#activity {
+    width: 85%;
+    height: 70%;
+    border: 2px solid #ccc;
+    float: right;
+}
+#activity h2 {
+    text-indent: 0;
+}
+#activity dt {
+    color: #ff0000;
+}
+
+#activity dl {
+    width:90%;
+    margin:15px auto;
+    font-size:16px;
+}
+#activity dl dd {
+    padding:15px 0;
+}
+
+#activity dl dd p{
+    font-size: 8px;
+    color: black;
+    margin: 10px 0 0 80px;
+}
+/*#activity dl dd input.text {*/
+    /*width: 220px;*/
+    /*height: 19px;*/
+    /*border: 1px dashed #333;*/
+    /*background: #fff;*/
+/*}*/
+/*#activity dl dd .date {*/
+    /*width: 220px;*/
+    /*height: 19px;*/
+    /*border: 1px dashed #333;*/
+    /*background: #fff;*/
+/*}*/
+/*#activity dl dd input.submit {*/
+    /*width: 70px;*/
+    /*height: 25px;*/
+    /*border: 1px dashed #333;*/
+    /*background: #ffffff;*/
+    /*margin: 20px 80px 0 0;*/
+    /*cursor: pointer;*/
+/*}*/
+#user {
+    width: 13%;
+    height: 70%;
+    border: 2px solid #cccccc;
+    float: left;
+}
+#user dl {
+    margin: 0 auto;
+}
+#user dl dd {
+    padding: 5% 0 0 10%;
+}
+#user dl dd a {
+    text-decoration: none;
+    color: black;
+}
+#user dl dd a:hover{
+    color: #ff0000;
+}

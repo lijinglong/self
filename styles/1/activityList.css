@@ -1,0 +1,48 @@
+@CHARSET "UTF-8";
+#list {
+    width: 85%;
+    height: 70%;
+    border: 2px solid #cccccc;
+    float: right;
+}
+#list table {
+    width: 98%;
+    table-layout: fixed;
+    margin: 1% 1% 0 1%;
+}
+#list table td{
+    width: 100px;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    text-align: center;
+}
+#list table td a{
+    text-decoration: none;
+    color: blue;
+}
+#list table td a:hover{
+    color: #ff0000;
+}
+#list table #serverurl{
+    text-align: left;
+    word-wrap: break-word;
+}
+#user {
+    width: 13%;
+    height: 70%;
+    border: 2px solid #cccccc;
+    float: left;
+}
+#user dl {
+    margin: 0 auto;
+}
+#user dl dd {
+    padding: 5% 0 0 10%;
+}
+#user dl dd a {
+    text-decoration: none;
+    color: black;
+}
+#user dl dd a:hover{
+    color: #ff0000;
+}
